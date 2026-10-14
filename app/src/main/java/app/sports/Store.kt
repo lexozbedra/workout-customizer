@@ -64,7 +64,7 @@ data class Ui(
 }
 
 /**
- * Данные лежат в папке пользователя: profile.json, progress.json и plans/*.json. В самом приложении хранится только
+ * Данные лежат в папке пользователя: profile.json, progress.json и файлы в папке plans. В самом приложении хранится только
  * ссылка на выбранную папку. Один объект на процесс: его читают и интерфейс, и фоновая служба.
  */
 class Store private constructor(private val context: Context) {

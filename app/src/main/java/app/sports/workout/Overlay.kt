@@ -54,7 +54,7 @@ class Overlay(
             setOnClickListener { onToggle() }
         }
         val close = TextView(context).apply {
-            text = "×"
+            this.text = "×"
             setTextColor(Color.WHITE)
             textSize = 24f
             gravity = Gravity.CENTER

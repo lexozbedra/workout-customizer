@@ -129,7 +129,7 @@ fun VacationDialog(schedule: Schedule, today: LocalDate, onSave: (Vacation) -> U
     var align by remember { mutableStateOf(false) }
     var picking by remember { mutableStateOf(false) }
     val vacation = Vacation(start, days, align, reason, note.trim())
-    val lastDate = Schedule(schedule.planStart, schedule.vacations + vacation, schedule.moves, schedule.tuning).lastDate
+    val lastDate = Schedule(schedule.plan, schedule.planStart, schedule.vacations + vacation, schedule.moves, schedule.tuning).lastDate
     val valid = reason.isNotEmpty() && (reason != Reasons.OTHER || note.isNotBlank())
 
     AlertDialog(
