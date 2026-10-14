@@ -16,7 +16,7 @@ A personal Android app for training plans. A plan is a JSON file you import, and
 
 ## Installation and getting started
 
-1. **Download and install the APK** on your phone: [app-debug.apk](https://github.com/lexozbedra/workout-customizer/releases/latest/download/app-debug.apk).
+1. **Download and install the APK** on your phone: [app-debug.apk](https://github.com/lexozbedra/workout-customizer/releases/latest/download/app-debug.apk). All versions are on the [Releases](https://github.com/lexozbedra/workout-customizer/releases) page.
 2. **Open the app.** Allow notifications and choose a folder for your data: create a folder (for example "Workouts") and tap **Use this folder**.
 3. **Add a plan.** You can import your own plan file (**Plans → Import from file**) or get a template with the **Plan template** button and have an AI assistant generate a plan for you. Once a plan is started, the app shows the workout calendar and statistics.
 4. **Fill in your profile.** On the **Profile** tab enter your name, height, sex and date of birth. Enter your weight on the **Body** tab: it is used for BMI, body fat, goals and the weight forecast.
@@ -176,7 +176,7 @@ Unit tests live in `app/src/test/java/app/sports/`. `ScheduleTest` (9 tests) cov
 
 ## Установка и начало работы
 
-1. **Скачайте и установите APK** на телефон: [app-debug.apk](https://github.com/lexozbedra/workout-customizer/releases/latest/download/app-debug.apk).
+1. **Скачайте и установите APK** на телефон: [app-debug.apk](https://github.com/lexozbedra/workout-customizer/releases/latest/download/app-debug.apk). Все версии лежат на странице [Releases](https://github.com/lexozbedra/workout-customizer/releases).
 2. **Откройте приложение.** Разрешите уведомления и выберите папку для данных: создайте папку (например, «Тренировки») и нажмите **Использовать эту папку**.
 3. **Добавьте план.** Можно загрузить свой файл (**Планы → Импорт из файла**) или получить шаблон кнопкой **Шаблон для нейросети** и сгенерировать план с помощью нейросети. После запуска плана приложение покажет календарь тренировок и статистику.
 4. **Заполните профиль.** На вкладке **Профиль** укажите имя, рост, пол и дату рождения. Вес указывается на вкладке **Тело**: по нему считаются ИМТ, процент жира, цели и прогноз веса.
