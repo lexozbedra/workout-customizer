@@ -6,12 +6,22 @@ A personal Android app for training plans. A plan is a JSON file you import, and
 
 **Contents**
 
-1. [Features](#features)
-2. [Rules and logic](#rules-and-logic)
-3. [Background work and sound](#background-work-and-sound)
-4. [Data and storage](#data-and-storage)
-5. [Architecture](#architecture)
-6. [Tests](#tests)
+1. [Install](#install)
+2. [Features](#features)
+3. [Rules and logic](#rules-and-logic)
+4. [Background work and sound](#background-work-and-sound)
+5. [Data and storage](#data-and-storage)
+6. [Architecture](#architecture)
+7. [Tests](#tests)
+
+## Install
+
+1. **Download the APK** on your phone: [app-debug.apk](https://github.com/lexozbedra/workout-customizer/releases/latest/download/app-debug.apk). All versions are on the [Releases](https://github.com/lexozbedra/workout-customizer/releases) page. (If the repository is private, you have to be signed in to GitHub on that phone.)
+2. **Open the downloaded file.** The phone will say it is blocked: tap **Settings** and turn on **Allow from this source** for the browser or the file manager you used, then go back and tap **Install**. If an antivirus warning appears, choose **Install anyway**, this is normal for apps outside Google Play.
+3. **Open the app.** Allow notifications, then choose a folder for your data: create a folder (for example "Workouts") and tap **Use this folder**.
+4. **Add a plan.** Copy a plan file (`.json`) to the phone, then **Plans → Import from file**, pick it and tap **Start**. A sample file is in the [plans](plans/) folder, and the **Plan template** button gives you a prompt for an AI assistant that can write a plan for you.
+
+The app is installed over the previous version without losing data, since data lives in your folder.
 
 ## Features
 
@@ -158,12 +168,22 @@ Unit tests live in `app/src/test/java/app/sports/`. `ScheduleTest` (9 tests) cov
 
 **Содержание**
 
-1. [Возможности](#возможности)
-2. [Правила и логика](#правила-и-логика)
-3. [Работа в фоне и звук](#работа-в-фоне-и-звук)
-4. [Данные и хранение](#данные-и-хранение)
-5. [Архитектура](#архитектура)
-6. [Тесты](#тесты)
+1. [Установка](#установка)
+2. [Возможности](#возможности)
+3. [Правила и логика](#правила-и-логика)
+4. [Работа в фоне и звук](#работа-в-фоне-и-звук)
+5. [Данные и хранение](#данные-и-хранение)
+6. [Архитектура](#архитектура)
+7. [Тесты](#тесты)
+
+## Установка
+
+1. **Скачай APK** на телефон: [app-debug.apk](https://github.com/lexozbedra/workout-customizer/releases/latest/download/app-debug.apk). Все версии лежат на странице [Releases](https://github.com/lexozbedra/workout-customizer/releases). (Если репозиторий приватный, на телефоне нужно войти в GitHub.)
+2. **Открой скачанный файл.** Телефон скажет, что установка заблокирована: нажми **Настройки** и включи **Разрешить из этого источника** для браузера или файлового менеджера, которым скачивала, потом вернись и нажми **Установить**. Если появится предупреждение антивируса, выбери **Всё равно установить**: для приложений не из Google Play это нормально.
+3. **Открой приложение.** Разреши уведомления и выбери папку для данных: создай папку (например, «Тренировки») и нажми **Использовать эту папку**.
+4. **Добавь план.** Скопируй файл плана (`.json`) на телефон, затем **Планы → Импорт из файла**, выбери его и нажми **Начать**. Пример файла лежит в папке [plans](plans/), а кнопка **Шаблон для нейросети** даёт подсказку, по которой нейросеть напишет план за тебя.
+
+Новая версия ставится поверх старой, данные не теряются: они лежат в твоей папке.
 
 ## Возможности
 
